@@ -10,9 +10,14 @@ h2{
 h4{
      margin:0;
  }
- 
- 
-.row{
-     height:50%;
-     width:1vw;
- }
+.chart{
+    height:500;
+    width:500;
+}
+
+
+#test{
+    height:500;
+    width:500;
+    
+}
