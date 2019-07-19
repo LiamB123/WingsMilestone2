@@ -1,4 +1,4 @@
-section{
+.ContactInfo{
     background-color:#e54d00 ;
     font-style: italic;
 }
@@ -7,3 +7,12 @@ h2{
     text-align: center;
     background-color: #e54d403
 }
+h4{
+     margin:0;
+ }
+ 
+ 
+.row{
+     height:50%;
+     width:1vw;
+ }
