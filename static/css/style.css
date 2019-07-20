@@ -3,7 +3,7 @@
     font-style: italic;
 }
 
-h2{
+h1{
     text-align: center;
     background-color: #e54d403;
     text-decoration: underline;
@@ -21,7 +21,7 @@ h4{
 
 .Dashboard{
     border: solid 3px black;
-    height: 50%;
-    width:50%;
-    display: inline-block;
+    height: 40%;
+    width:40%;
+    display: inline-table;
 }

@@ -15,12 +15,25 @@ function makeGraphs(error, transactionData) {
     var store_dim = ndx.dimension(dc.pluck('store'));
     var total_score_per_store = store_dim.group().reduceSum(dc.pluck('cost'));
 
+    show_location_selector(ndx);
     show_bar_chart(ndx);
     show_pie_chart(ndx);
 
     dc.renderAll();
 
     console.log(d3);
+    /*This bar chart shows the ove*/
+    
+    
+    function show_location_selector(){
+        var location_dim=ndx.dimension(dc.pluck('location'));
+        var location_group = location_dim.group();
+        
+        dc.selectMenu("#location_selector")
+            .group(location_group)
+            .dimension(location_dim);
+        
+    }
 
     function show_bar_chart(ndx) {
         var VariableDim = ndx.dimension(dc.pluck('store'))
@@ -38,7 +51,7 @@ function makeGraphs(error, transactionData) {
             .xAxisLabel("The Stores!")
             .yAxis().ticks(6);
     }
-
+/*This pie chart shows each of the stores available*/
     function show_pie_chart(ndx) {
 
         dc.pieChart("#pie_chart")
@@ -49,4 +62,7 @@ function makeGraphs(error, transactionData) {
             .group(total_score_per_store)
             .dimension(store_dim);
     }
+
+
+/*this is the final of the closing brackets*/    
 }
