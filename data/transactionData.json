@@ -16,7 +16,7 @@
 		"flavour": 8,
 		"experience": 2,
 		"store": "Wishbone",
-		"cost": 1,
+		"cost": 6,
 		"location": "Town"
 	},
 	{
@@ -132,7 +132,7 @@
 		"flavour": 9,
 		"experience": 2,
 		"store": "Blue Bar",
-		"cost": 3,
+		"cost": 1,
 		"location": "County"
 	},
 
@@ -204,7 +204,7 @@
 		"flavour": 8,
 		"experience": 2,
 		"store": "Mad Egg",
-		"cost": 1,
+		"cost": 6,
 		"location": "Town"
 	},
 	{

@@ -1,21 +1,44 @@
-.ContactInfo{
-    background-color:#e54d00 ;
-    font-style: italic;
-}
+ /*Content Stylings*/
 body{
     margin:0;
+    background-color: #ff8117;
+    font-family: cursive;
 }
 
-h1{
+
+
+ h1{
     text-align: center;
     background-color: #e54d403;
     text-decoration: underline;
-    
-    
 }
-h4{
+h2,h3{
+    text-align: center;
+ 
+    text-decoration: underline;
+}
+
+ h4{
      margin:0;
  }
+
+.content{
+    background-color: #ff8c00;
+    display: inline-table;
+    border:solid 1px gray;
+}
+.Chart-style{
+    alignment-baseline: central;
+}
+
+
+
+ .ContactInfo{
+    background-color:#e54d00 ;
+    font-style: italic;
+}
+ 
+ /*---------*/
 .chart{
     height:500;
     width:500;
@@ -24,17 +47,16 @@ h4{
 
 .Dashboard{
     border: solid 3px black;
-    height: 40%;
-    width:40%;
-    display: inline-table;
+    display: inline-table ;
 }
 
-#row{
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 .MenuSelector{
     border:solid 2px orange;
     font-size:20px;
     text-align:center;
+    background-color:#343a40;
 }
+
+
+
