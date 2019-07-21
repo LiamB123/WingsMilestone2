@@ -2,6 +2,9 @@
     background-color:#e54d00 ;
     font-style: italic;
 }
+body{
+    margin:0;
+}
 
 h1{
     text-align: center;
@@ -24,4 +27,14 @@ h4{
     height: 40%;
     width:40%;
     display: inline-table;
+}
+
+#row{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.MenuSelector{
+    border:solid 2px orange;
+    font-size:20px;
+    text-align:center;
 }
